@@ -31,6 +31,8 @@ Cada arquivo de instância possui as seguintes características:
 - Seção _BLOCKAGES_: linhas no formato _IDENTIFICAÇÃO DO VÉRTICE _IDENTIFICAÇAO DO VÉRTICE_ para qualificar arcos que não poderão ser utilizados pelas operações sobre arcos;
 - Seção _A'_: existe apenas nas instâncias para o problema de Adição de Arcos. Suas linhas possuem o formato _IDENTIFICAÇÃO DO VÉRTICE IDENTIFICAÇÃO DO VÉRTICE CUSTO_ para qualificar um arco de um vértice a outro com um custo qualquer, o qual não está atualmente no digrafo e que poderá ser adicionado a ele;
 - Seção _TERMINALS_: existe apenas nas instâncias dos problemas que não possuem o objetivo de conectar de maneira forte todos os vértices de um digrafo. Contém linhas no formato _IDENTIFICAÇÃO DO VÉRTICE_ para caracterizar os vértices pertencentes ao subconjunto S de V e
-- Seção _R_: não utilizado.
+- Seção _R_: não utilizada.
 
 O formato acima descrito para os arquivos de instâncias utilizadas nos experimentos foi inspirado naquele utilizado por:  HUANG, Y., SANTOS, A. C., DUHAMEL, C.  “Model and methods toaddress urban road network problems with disruptions”,InternationalTransactions in Operational Research, v. 27, n. 6, pp. 2715–2739, 2020.doi:  https://doi.org/10.1111/itor.12641.  Disponível em:  <https://onlinelibrary.wiley.com/doi/abs/10.1111/itor.12641>
+
+Os resultados computacionais completos estão contidos no arquivo _Resultados Computacionais.pdf_
